@@ -13,5 +13,9 @@ Students should create one R script called run_analysis.R that does the followin
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each   subject.
 
-# How does attached script work?
-Attached script (run_analysis.R) 
+# Contents of this Github Folder
+1.- Readme file (this one)
+2.- CodeBook (Explaining Dataset)
+3.- R Script - RunAnalysis.R (Script that processes the data provided for this Project)
+4.- Tidy Dataset (final file produced by script with required steps to generate Tidy Data)
+
