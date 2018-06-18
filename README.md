@@ -22,9 +22,11 @@ Students should create one R script called run_analysis.R that does the followin
 # How to make the script work?
 
 Data used by the script is located in the following folders:
+
 Test Data
 
 "C:/Data/R/Getting and Creating Data Week4/Week 4 Final Project/UCI HAR Dataset/test"
+
 Train Data
 
 "C:/Data/R/Getting and Creating Data Week4/Week 4 Final Project/UCI HAR Dataset/train"
