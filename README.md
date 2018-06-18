@@ -26,7 +26,7 @@ Students should create one R script called run_analysis.R that does the followin
 
 # How to make the script work?
 
-Data used by the script is located in the following folders:
+Data used by the script should be located in the following folders:
 
 Test Data
 
@@ -41,3 +41,5 @@ Features and  Activities
 "C:/Data/R/Getting and Creating Data Week4/Week 4 Final Project/UCI HAR Dataset"
 
 Once the data is located in the folders above, run the script to create the tidy.txt file
+
+NOTE: In case you do not want to create the different folders, just move all the data to a single folder and modify the script to look for the data in the desired new location.
