@@ -15,7 +15,7 @@ Students should create one R script called run_analysis.R that does the followin
 
 # Contents of this Github Folder
 
-1.- Readme file (this one)
+1.- Readme file (this file)
 
 2.- CodeBook (Explaining Dataset)
 
