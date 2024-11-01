@@ -25,7 +25,7 @@ train_set_act_key <- cbind(train_keys_set,train_set)
 train_set_act_subject <- cbind(train_subject_set,train_set_act_key)
 ##View(train_set_act_subject)
 
-#Load the Features and tag all columns
+# Load the Features and tag all columns
 setwd("C:/Data/R/Getting and Creating Data Week4/Week 4 Final Project/UCI HAR Dataset")
 features <- read.csv("features.txt", sep = "",header = FALSE, stringsAsFactors = FALSE)
 features_line <- features$V2
@@ -36,7 +36,7 @@ names(train_set_act_subject) <- features_add
 #Load the Activities Labels 
 activit_label <- read.csv("activity_labels.txt", sep = "",header = FALSE, stringsAsFactors = FALSE)
 
-#Merge the test and train datasets
+# Merge the test and train datasets
 merged_data <- rbind(test_set_act_subject,train_set_act_subject)
 dim(merged_data)
 #Tag data with activities Descriptions (i.e. Walking, Standing, etd) 
@@ -48,7 +48,7 @@ names(merged_data)[1] <- "Activity"
 ##head(merged_data[1:5,])
 merged_group <- group_by(merged_data, Activity, subject)
 
-#Last group created calculating mean by Activity and subject
+# Last group created calculating mean by Activity and subject
 tidy_data <- summarise_all(merged_group,funs(mean)) 
 setwd("C:/Data/R/Getting and Creating Data Week4/Week 4 Final Project")
 ##write.csv(tidy_data, file = "last_tidy.csv")
