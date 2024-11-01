@@ -1,4 +1,4 @@
-CodeBook for tidy dataset
+CodeBook for Tidy Dataset
 Data source
 This data is coming from "Human Activity Recognition Using Smartphones Data Set" which was originally made available from this link: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
